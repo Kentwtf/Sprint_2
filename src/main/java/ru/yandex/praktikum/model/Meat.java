@@ -8,3 +8,4 @@ public class Meat extends Food {
         this.isVegetarian = false;
     }
 }
+
