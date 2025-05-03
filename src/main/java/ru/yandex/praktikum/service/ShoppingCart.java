@@ -6,7 +6,7 @@ public class ShoppingCart {
 
     public static Food[] foods;
 
-    public ShoppingCart(Food[] foods) {
+    private ShoppingCart(Food[] foods) {
         ShoppingCart.foods = foods != null ? foods : new Food[0];
     }
 
